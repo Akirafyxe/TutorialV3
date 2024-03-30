@@ -14,7 +14,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
-
+apply from: 'https://raw.githubusercontent.com/SizableShrimp/ForgeUpdatesRemapper/main/remapper.gradle'
 version = '1.0'
 group = 'com.mcjty.tutorialv3' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'tutorialv3'
